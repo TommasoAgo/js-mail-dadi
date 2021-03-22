@@ -17,7 +17,7 @@ for ( var i = 0; i < eMail.length; i++ ) {
 }
 
 // Stampare l'esito della ricerca
-if ( emailTrovata == true ) {
+if ( emailTrovata ) {
     alert("La mail inserita è corretta");
 } else {
     alert("La mail inserita non è corretta");
